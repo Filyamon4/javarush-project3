@@ -21,18 +21,18 @@ public class Main {
 
     public static void start() {
 
-        for (char i = 'а'; i <= 'я'; i++) {
+        for (char i = 'а'; i <= 'я'; i++) {             // Заполнение алфавита с маленькими буквами нужными символами
             ALPHABET.add(i);
         }
 
         for (char i = 'А'; i <= 'Я'; i++) {
-            CAPITAL_ALPHABET.add(i);
+            CAPITAL_ALPHABET.add(i);                    // Заполнение алфавита с БОЛЬШИМИ буквами нужными символами
         }
 
-        CAPITAL_ALPHABET.add(6, 'Ё');
+        CAPITAL_ALPHABET.add(6, 'Ё');    // добавляю вручную букву ё
         ALPHABET.add(6, 'ё');
 
-        ALPHABET.add('.');
+        ALPHABET.add('.');                      // добавляю нужные знаки препинания в алфавиты
         ALPHABET.add(',');
         ALPHABET.add('"');
         ALPHABET.add(':');
@@ -352,7 +352,7 @@ public class Main {
 
         }
 
-    } // УЖСССССС УЖАААААСНЫЙ
+    } // УЖСССССС УЖАААААСНЫЙ. Тут лучше промолчать...
 
     public static void clearConsole() {
 
